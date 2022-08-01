@@ -62,6 +62,7 @@ export default async function serveMkdocs(opts: OptionValues) {
     port: opts.port,
     dockerImage: opts.dockerImage,
     dockerEntrypoint: opts.dockerEntrypoint,
+    dockerArgs: opts.dockerArgs,
     useDocker: opts.docker,
     stdoutLogFunc: logFunc,
     stderrLogFunc: logFunc,
